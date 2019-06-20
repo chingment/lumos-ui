@@ -3,7 +3,7 @@ import header from "./header/src/header";
 const components={
     install(Vue){
         Vue.component("lumos-tabbar",tabbar)
-        Vue.component("lumos-header",tabbar)
+        Vue.component("lumos-header",header)
     }
 };
 
